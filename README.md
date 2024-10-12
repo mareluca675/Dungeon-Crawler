@@ -7,4 +7,5 @@ Features include:
 - a basic combat system;
 - a few items, for example: helmet, chestplate, common sword etc;
 Are you brave enough to challenge The Troll?
+- Made using Visual Studio :P
 */
