@@ -15,7 +15,10 @@ void Player::heal(int amount) {
 }
 
 void Player::takeDamage(int amount) {
-    currentHealth -= (amount - (amount * armor / 100));
+    currentHealth -= amount;
+    if (currentHealth < 0) {
+        currentHealth = 0;
+    }
 }
 
 void Player::moveToRoom(room* newRoom) {
